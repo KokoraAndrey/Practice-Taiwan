@@ -1,0 +1,95 @@
+@import './common/variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-fonts;
+  padding: 0;
+  margin: 0;
+  max-width: 1440px;
+  max-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.header {
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &__logo {
+    width: 148px;
+    height: 56px;
+  }
+
+  &__content {
+    padding: 18px 0px 19px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    list-style-type: none;
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 64px;
+    }
+  }
+
+  &__item {
+    margin-right: 64px;
+
+    &:last-child {
+      margin-right: 81px;
+    }
+
+  }
+  
+  &__itemlist {
+    text-decoration: none;
+    color: $primery-color;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    &_active {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  &__registration {
+    border: none;
+    padding: 8px 30px;
+    background-color: $orange-color;
+    border-radius: 48px;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+
+    &:hover {
+      background-color: #f43a0d;
+      transition: all 0.3s ease;
+    }
+  }
+}

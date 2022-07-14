@@ -1,8 +1,10 @@
 //FONT
 $primary-fonts: 'Poppins', sans-serif;
+
 //COLOR
-$primery-color: #293241;
+$primary-color: #293241;
 $orange-color: #ec5f3b;
+
 //BUTTONS
 $filter: drop-shadow(0px 75px 164px rgba(238, 108, 77, 0.24))
   drop-shadow(0px 31.3332px 68.5153px rgba(238, 108, 77, 0.172525))
@@ -10,3 +12,6 @@ $filter: drop-shadow(0px 75px 164px rgba(238, 108, 77, 0.24))
   drop-shadow(0px 9.39116px 20.5353px rgba(238, 108, 77, 0.12))
   drop-shadow(0px 4.98758px 10.9062px rgba(238, 108, 77, 0.0969343))
   drop-shadow(0px 2.07544px 4.5383px rgba(238, 108, 77, 0.0674749));
+
+//BOX-SHADOW
+$shadow: 0px 101px 302px rgba(41, 50, 65, 0.08), 0px 42.1954px 157.306px rgba(41, 50, 65, 0.0575083), 0px 22.5597px 107.91px rgba(41, 50, 65, 0.0476886), 0px 12.6468px 77.7341px rgba(41, 50, 65, 0.04), 0px 6.7166px 52.7962px rgba(41, 50, 65, 0.0323114), 0px 2.79493px 27.7529px rgba(41, 50, 65, 0.0224916);

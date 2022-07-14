@@ -70,6 +70,7 @@ body {
   color: white;
   background-color: #ec5f3b;
   text-align: center;
+  cursor: pointer;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -134,6 +135,7 @@ body {
   color: white;
   background-color: #ec5f3b;
   text-align: center;
+  cursor: pointer;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -241,6 +243,7 @@ body {
   color: white;
   background-color: #ec5f3b;
   text-align: center;
+  cursor: pointer;
   filter: drop-shadow(0px 75px 164px rgba(238, 108, 77, 0.24)) drop-shadow(0px 31.3332px 68.5153px rgba(238, 108, 77, 0.172525)) drop-shadow(0px 16.7522px 36.6315px rgba(238, 108, 77, 0.143066)) drop-shadow(0px 9.39116px 20.5353px rgba(238, 108, 77, 0.12)) drop-shadow(0px 4.98758px 10.9062px rgba(238, 108, 77, 0.0969343)) drop-shadow(0px 2.07544px 4.5383px rgba(238, 108, 77, 0.0674749));
   font-style: normal;
   font-weight: 700;
@@ -254,6 +257,107 @@ body {
 .popular__button:hover {
   background-color: #e1390f;
   transition: 0.4s all;
+}
+
+.about .about__content {
+  margin-top: 227px;
+  height: 679px;
+}
+.about__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #293241;
+}
+.about__block {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.about__text {
+  margin-top: 58px;
+}
+.about__item {
+  margin-bottom: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  color: #000;
+}
+.about__item_orange {
+  font-weight: 700;
+  color: #ec5f3b;
+}
+.about__item_bolt {
+  font-weight: 700;
+}
+.about__poster {
+  width: 593px;
+  height: 575px;
+}
+
+.rating__title {
+  margin-top: 57px;
+  margin-bottom: 64px;
+  text-align: center;
+  color: #293241;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+.rating__card {
+  display: flex;
+}
+.rating__item {
+  width: 399px;
+  height: 255px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 101px 302px rgba(41, 50, 65, 0.08), 0px 42.1954px 157.306px rgba(41, 50, 65, 0.0575083), 0px 22.5597px 107.91px rgba(41, 50, 65, 0.0476886), 0px 12.6468px 77.7341px rgba(41, 50, 65, 0.04), 0px 6.7166px 52.7962px rgba(41, 50, 65, 0.0323114), 0px 2.79493px 27.7529px rgba(41, 50, 65, 0.0224916);
+  display: flex;
+}
+.rating__item:not(:last-child) {
+  margin-right: 22px;
+}
+.rating__img {
+  width: 66px;
+  height: 66px;
+  margin: 27px 26px 0 24px;
+}
+.rating__block {
+  margin: 27px 0 40px;
+}
+.rating__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #293241;
+  margin-bottom: 4px;
+}
+.rating__star {
+  width: 90px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.rating__discription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 14px;
+}
+.rating__name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #293241;
 }
 
 /*# sourceMappingURL=style.css.map */

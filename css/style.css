@@ -43,20 +43,17 @@ body {
   align-items: center;
 }
 .menu__link {
+  width: 275px;
+  height: 24px;
   list-style-type: none;
+  margin-right: 81px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .menu__itemlist {
   color: #293241;
   text-decoration: none;
-}
-.menu__itemlist:not(:last-child) {
-  margin-right: 64px;
-}
-.menu__itemlist:last-child {
-  margin-right: 81px;
 }
 .menu__itemlist_active {
   font-style: normal;
@@ -448,7 +445,6 @@ body {
   display: flex;
   height: 386px;
   padding: 8px 0 59px 0;
-  border-bottom: 1px solid #FFF;
 }
 .footer__social {
   height: 221px;
@@ -490,6 +486,14 @@ body {
 }
 .footer__contact {
   margin-left: 76px;
+}
+.footer__diviver {
+  width: 1240px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 59px;
+  left: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

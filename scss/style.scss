@@ -49,24 +49,21 @@ body {
   align-items: center;
 
   &__link {
+    width: 275px;
+    height: 24px;
     list-style-type: none;
+    margin-right: 81px;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   &__itemlist {
     color: $primary-color;
     text-decoration: none;
 
-    &:not(:last-child) {
-      margin-right: 64px;
-    }
-
-    &:last-child {
-      margin-right: 81px;
-    }
+    
 
     &_active {
       font-style: normal;
@@ -74,6 +71,7 @@ body {
       font-size: 16px;
       line-height: 24px;
     }
+
   }
 
   &__registration {
@@ -537,13 +535,10 @@ body {
     left: 0;
   }
 
-  
-
   &__body {
     display: flex;
     height: 386px;
     padding: 8px 0 59px 0;
-    border-bottom: 1px solid #FFF;
   }
 
   &__social {
@@ -594,8 +589,17 @@ body {
   &__support {
     margin-left: 76px;
   }
-  
+
   &__contact {
     margin-left: 76px;
+  }
+
+  &__diviver {
+    width: 1240px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 59px;
+    left: 100px;
   }
 }
